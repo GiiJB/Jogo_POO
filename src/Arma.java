@@ -5,10 +5,10 @@ public abstract class Arma {
     private int chance;
     private String nome;
 
-    public Arma(int ataque, int chance, String nome){
+    public Arma(String nome, int ataque, int chance){
+        this.nome = nome;
         this.ataque = ataque;
         this.chance = chance;
-        this.nome = nome;
     }
 
     public void Descricao(){
