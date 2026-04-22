@@ -11,7 +11,7 @@ public abstract class Arma {
         this.chance = chance;
     }
 
-    public void Descricao(){
+    public void descricao(){
         System.out.printf("%s \nDano = %d\nChance de acerto = %d%", this.nome, this.ataque, this.chance);
     }
 
